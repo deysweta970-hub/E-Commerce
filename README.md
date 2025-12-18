@@ -2,6 +2,7 @@
 🔹 Project Overvie
 This project showcases a portfolio-ready E-Commerce Sales Dashboard built using Power BI, designed to analyze sales performance, profitability, order status, and customer trends from 2023 to 2025.
 The dashboard uses realistic business data and advanced DAX calculations, making it suitable for Data Analyst / Business Intelligence roles.
+#
 <a href="https://github.com/deysweta970-hub/E-Commerce/commit/883ea486604fa8b97923d8d709fb5f25b1a9de4a">E-Commerce</a>
 
 # Key Business Questions Answered
