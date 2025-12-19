@@ -5,109 +5,113 @@ The dashboard uses realistic business data and advanced DAX calculations, making
 #
 <a href="https://github.com/deysweta970-hub/E-Commerce/commit/883ea486604fa8b97923d8d709fb5f25b1a9de4a">E-Commerce</a>
 
-# Problem Statement
+# Project Overview
 
-An e-commerce company wants to track its Year-to-Date (YTD) sales performance to understand revenue growth, profit trends, order quantity, cost structure, customer contribution, and product performance.
-The objective is to identify growth opportunities, profitable categories, top customers, and loss-making products to support strategic business decisions.
+This project analyzes E-commerce sales performance using transactional data to help business stakeholders understand sales, profit, cost, quantity trends, and customer behavior.
+The dashboard provides YTD performance, growth comparison, and identifies top and bottom contributors to support data-driven decision making.
 
-# Objectives
+# Business Objective
 
-Monitor YTD Sales, Profit, Quantity, and Cost
+• The main objectives of this analysis were:
 
-Compare current year vs previous year performance
+• Track Year-to-Date (YTD) Sales, Profit, Quantity, and Cost
 
-Analyze sales by product category
+• Compare current year performance with previous year growth
 
-Identify top customers by sales
+• Identify top customers, profitable categories, and loss-making products
 
-Track order status distribution
+• Analyze order status distribution and regional performance
 
-Evaluate state-wise sales performance
+# Dataset Details
 
-Detect low-performing products
+• Domain: E-Commerce
 
-# Key KPIs (YTD)
+• Time Period: 2023 – 2025
 
-Sales Amount: $17.23M (+1.76% YoY)
+• Records: 5,000+ rows
 
-Profit: $4.0M (+2.22% YoY)
+• Key Fields:
 
-Quantity Sold: 5,119 (+2.56% YoY)
+• Order Date, Ship Date
 
-Cost: $13.23M (+1.62% YoY)
+• Product Category
 
-# Key Insights
- Category Performance
+• Sales, Profit, Cost, Quantity
 
-Books and Beauty are the top revenue-generating categories.
+• Customer Name
 
-Electronics shows stable growth but moderate margins.
+• State / Region
 
-Home & Kitchen contributes lower revenue → scope for marketing optimization.
-
- Customer Analysis
-
-Top customers such as Ankit, Rahul, and Sneha contribute significantly to YTD sales.
-
-Customer concentration suggests opportunity for loyalty & retention programs.
-
- Order Status Distribution
-
-Majority of orders are Delivered, indicating strong fulfillment performance.
-
-Cancelled and Returned orders require monitoring to reduce revenue leakage.
-
- Geographic Performance
-
-High sales observed in major Indian states.
-
-Certain regions show lower penetration, offering expansion opportunities.
-
- Profit Trend
-
-YTD profit shows a steady upward trend across months.
-
-Profit growth outpaces sales growth, indicating improved cost efficiency.
-
- Bottom Products
-
-Products like Mobile Accessories and Speakers generate lower profit.
-
-These items need pricing revision or supplier negotiation.
+• Order Status
 
 # Tools & Technologies Used
 
-Power BI – Dashboard & visual storytelling
+• Excel – Data cleaning & preprocessing
 
-DAX – YTD, YoY growth & KPI calculations
+• SQL – Data validation and aggregations
 
- CSV – E-commerce transaction data
+• Power BI – Data modeling, DAX measures, and dashboard visualization
 
-Data Modeling – Star schema & relationships
+# Key KPIs (YTD – 2025)
 
-# Dashboard Features
+• YTD Sales: $17.23M (↑ 1.76%)
 
-KPI cards with YoY growth indicators
+• YTD Profit: $4M (↑ 2.22%)
 
-Category & product-level drill-down
+• YTD Quantity Sold: 5,119 (↑ 2.56%)
 
-Map visualization for state-wise sales
+• YTD Cost: $13.23M (↑ 1.62%)
 
-Donut chart for order status
+•These KPIs help stakeholders quickly evaluate overall business health.
 
-Trend analysis by month
+#  Dashboard Insights
+1 Sales by Product Category
 
-# Business Recommendations
+• Electronics and Fashion are the highest revenue-generating categories
 
-Focus marketing on high-margin categories
+• Home & Kitchen shows relatively lower growth compared to others
 
-Reduce cancellations through better delivery SLAs
+• Category-wise YoY growth helps identify expansion opportunities
 
-Promote top customers with personalized offers
+2 Top 5 Customers by Sales
 
-Rework pricing or discontinue low-profit products
+• A small group of customers contributes a significant portion of total revenue
 
-Expand operations in underperforming regions
+• Helps the business focus on high-value customer retention strategies
+
+3 Order Status Analysis
+
+• Majority of orders are Delivered, indicating operational efficiency
+
+• Cancelled and Returned orders highlight areas for logistics and quality improvement
+
+4 Geographic Sales Distribution
+
+• Strong sales concentration across major Indian states
+
+• Regional insights support location-based marketing and supply planning
+
+5 Profit Trend by Month
+
+• Profit shows a steady upward trend toward year-end
+
+• Seasonal peaks observed during festive months
+
+6  Bottom 5 Products by Profit
+
+• Identifies loss-making products
+
+• Enables decisions on pricing, supplier renegotiation, or product discontinuation
+
+# Key Business Takeaways
+
+• Sales and profit are growing steadily YoY
+
+• Few customers and categories drive most revenue
+
+• Some products consistently reduce profitability
+
+• Data can help optimize pricing, inventory, and customer strategy
 
 
 # Dashboard
