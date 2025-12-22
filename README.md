@@ -51,7 +51,39 @@ The dashboard provides YTD performance, growth comparison, and identifies top an
 • SQL – Data validation and aggregations
 
 • Power BI – Data modeling, DAX measures, and dashboard visualization
+# Dax Formula 
+•  YTD Sales = TOTALYTD (
+    [Total Sales],
+    'Date'[Date] )
 
+  
+•     YTD Profit = TOTALYTD (
+    [Total Profit],
+    'Date'[Date] )
+
+•  YTD Cost = TOTALYTD (
+    [Total Cost],
+    'Date'[Date] )
+
+•  YTD Qty = TOTALYTD (
+    [Total Qty],
+    'Date'[Date] )
+
+  •  YoY Sales Growth % = DIVIDE (
+    [YTD Sales] - [PY Sales],
+    [PY Sales] )
+
+
+  •   YoY Profit Growth % = DIVIDE (
+    [YTD Profit] - [PY Profit],
+    [PY Profit]
+)
+
+ • Sales Growth Icon = SWITCH (
+    TRUE(),
+    [YoY Sales Growth %] > 0, "▲",
+    [YoY Sales Growth %] < 0, "▼",
+    "=")
 # Key KPIs (YTD – 2025)
 
 • YTD Sales: $17.23M (↑ 1.76%)
